@@ -1,0 +1,285 @@
+body{
+    background-color: black;
+    color:white;
+   
+}
+.container{
+    display: flex;
+    
+
+}
+.centerContainer{
+    /* border: 2px solid white; */
+    width:75vw;
+    /* margin: 20px; */
+    
+}
+.centerNavbar
+{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    background-color: rgb(69, 68, 68);
+    padding:10px;
+    margin: 10px;
+    height: 7vh;
+
+}
+
+.spotifyPlaylist{
+    background-color:  rgb(28, 27, 27);
+    height: 87.5%;
+    margin: 10px;
+    position: relative;
+    
+}
+.player{
+    position: absolute;
+   bottom: 0px;
+ 
+   /* object-fit: contain; */
+   width: 98%;
+  /* margin: 10px; */
+   padding:10px ;
+   display: flex;
+  justify-content: space-between;
+  gap:20px;
+  height: 60px;
+  align-items: center;
+  background-color: rgb(69, 68, 68);
+  border-radius: 50px;
+    
+
+}
+.player img{
+    height: 48px;
+    width: 48px;
+    margin:10px
+
+}
+.player div{
+    margin:0px 20px;
+    font-size: 2em;
+    display: flex;
+    width: 300px;
+    text-wrap: wrap;
+}
+.songInfo{
+    display: flex;
+    justify-content:end ;
+}
+.info
+{
+    /* margin: 20px; */
+    padding-top: 10px;
+    padding-left: 30px;
+  
+    /* border: 2px solid white; */
+    /* padding: 10px; */
+
+}
+.sidebar
+{
+    
+    width: 25vw;
+}
+.sideFooter{
+    background-color: rgb(28, 27, 27) ;
+    height: 10px;
+    margin: 10px;
+    padding: 20px;
+  
+}
+.sideFooter span{
+    margin: 3px;
+}
+
+
+.sideNavbar{
+    background-color: rgb(28, 27, 27);
+ 
+    padding:10px;
+    margin: 10px;
+    padding-left: 10px;
+    display: flex;
+   flex-direction: column;
+   align-content: space-between;
+    /* border: 2px solid white; */
+
+}
+.sideNavbar div{
+    margin: 12px;
+
+}
+.arrows{
+  display: flex;
+  align-items: center;
+  font-size: 3em;
+}
+.loginAndSignUp{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid white; */
+    padding: 8px;
+    font-size: 20px;
+    width: 11vw;
+    
+}
+#loginBtn{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 0px;
+    width: 59px;
+}
+.yourLibrary{
+    background-color: rgb(28, 27, 27);
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    max-height: 70vh;
+    overflow: scroll;
+   
+
+}
+#yourLibraryHead{
+    background-color: rgb(28, 27, 27);
+   
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 2px solid white; */
+}
+#yourLibraryHead img{
+    height: 20px;
+    ;
+}
+.yourLibrary li{
+    list-style-type: style remove;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    align-items: center;
+    background-color: rgb(69, 68, 68);
+    padding: 12px;
+    margin: 16px 0px;
+    border-radius: 10px;
+    height: 42px;
+    margin-right: 41px;
+   
+}
+.yourLibraryPlayBtn :hover{
+    cursor: pointer;
+    transition: 0.1s  ease;
+}
+
+
+
+li span{
+  display: flex;
+  flex-wrap: wrap;
+}
+li button{
+    margin: 0px;
+    background-color: rgb(69, 68, 68);
+    display: flex;
+    gap: 7px;
+    justify-content: space-around;
+    /* border: 2px solid white; */
+    align-items: center;
+
+}
+li button svg{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding-left: 6px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: white;
+}
+
+
+
+
+.invert {
+    filter: invert(100%);
+}
+.home img{
+    width: 20px;
+}
+.searchBar img{
+    width:20px;
+}
+.yourLibrary img{
+    width: 20px;
+}
+
+button{
+    border:none;
+    background-color: rgb(69, 68, 68);
+    color: white;
+}
+.songs
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    overflow: scroll;
+}
+.songCard{
+    /* border: 2px solid white; */
+    width: 11vw;
+    height: 14vw;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    padding: 10px;
+    background-color:rgb(69, 68, 68) ;
+    margin-top:15px ;
+    border-radius: 10px;
+    /* position: absolute; */
+   
+
+}
+.songCard img{
+    width: 100%;
+    object-fit: contain;
+  
+
+    
+    
+}
+.songCard div{
+   text-align: center;
+   margin: 5px;
+   
+}
+.playBtn{
+    height: 40px;
+    width: 40px;
+    position: relative;
+   
+    left: 160px;
+    bottom: 100px;
+    background-color:green ;
+    /* opacity: 0; */
+
+    border-radius: 50%;
+    transition: all 1s ease;
+    
+    
+    /* object-fit: contain; */
+}
+.playBtn :hover{
+    opacity: 1;
+
+}
+.hidden{
+    display: none;
+}
+

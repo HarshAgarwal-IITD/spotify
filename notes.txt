@@ -1,0 +1,5 @@
+1. add prev and next functionality //
+2. timer showing nan:nan when song changed //
+3. add more css for hover 
+4. search functionality
+5, add song slider 

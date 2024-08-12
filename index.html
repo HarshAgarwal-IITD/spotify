@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/utility.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sideNavbar">
+                <div class="logo">
+                    <img src="img/logo.svg" class="invert" alt="">
+                </div>
+                <div class="home"> <img src="img/home.svg" class="invert " alt=""> Home</div>
+                <div class="searchBar"><img src="img/search.svg" class="invert" alt=""> Search</div>
+
+            </div>
+            <div id='yourLibraryHead'>
+                <img src="img/playlist.svg" class="invert" alt=""> &nbsp;Your Library
+            </div>
+            <div class="yourLibrary">
+                
+                
+                <!-- <audio id="audioPlayer" controls style="display: none;"></audio> -->
+
+               
+                <ul>
+                
+
+                </ul>
+            </div>
+            <div class="sideFooter">
+                <span>legal</span>
+                <span>safety</span>
+                <span>contactUs</span>
+                <span>aboutUs</span>
+                <span>helo</span>
+
+            </div>
+
+        </div>
+
+        <div class="centerContainer">
+            <div class="centerNavbar">
+                <div class="arrows">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#ffffff" fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#ffffff" fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    
+                   
+                </div>
+                <div class="loginAndSignUp">
+                    <button id="loginBtn">
+                        <h3>Login</h3>
+                    </button>
+                    <button id="signUpBtn">
+                        <h3>SignUP</h3>
+                    </button>
+                </div>
+
+            </div>
+            <div class="spotifyPlaylist">
+                <div class="info">
+                    <h1>Spotify Playlist</h1>
+                </div>
+                <div class="songs">
+
+                    <div class="songCard">
+                        <img src="songs/Angry_(mood)/cover.jpg" alt="">
+                        <div class="singerName">Dilijit Dosanjh</div>
+                        <div class="playlistName">Diljit Hits</div>
+                        <button class="playBtn"><img src="img/play.svg" class="" alt=""></button>
+
+                    </div>
+                    <div class="songCard">
+                        <img src="songs/Diljit/cover.jpg" alt="">
+                        <div class="singerName">Dilijit Dosanjh</div>
+                        <div class="playlistName">Diljit Hits</div>
+                        <button class="playBtn"><img src="img/play.svg" class="" alt=""></button>
+
+                    </div>
+
+
+                </div>
+                <div id='' class="player">
+                    <div class="songName">Better Day</div>
+                    <div class="playerButtons">
+                    <img id="prevSongBtn" src="img/prevsong.svg" class="invert" alt="">
+                    <img id='playerPlay' src="img/play.svg" class="invert" alt="">
+                    <img id='nextSongBtn' src="img/nextsong.svg" class="invert" alt="">
+                        
+                    </div>
+                    
+                    <div class="songInfo">00:00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
