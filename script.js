@@ -92,7 +92,7 @@ async function main() {
 
     let currentSong = new Audio();
     
-    const songsData = await getSongs();
+    const songsData =  getSongs();
     let songLink = '';
     let LibraryIcon = '';
     let playerIcon = document.getElementById('playerPlay');
