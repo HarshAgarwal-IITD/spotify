@@ -5,7 +5,7 @@ async function getSongs() {
     div.innerHTML = 
     `
             <tr>
-                <td><a href="./mp3/better-day-186374.mp3">Better Day</a></td>
+                <td><a href="mp3/better-day-186374.mp3">Better Day</a></td>
             </tr>
             <tr>
                 <td><a href="mp3/coverless-book-lofi-186307.mp3">Coverless Book</a></td>
